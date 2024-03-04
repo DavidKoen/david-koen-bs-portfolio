@@ -1,0 +1,157 @@
+/* GLOBAL STYLES */
+
+.nav-item {
+    transition: all 1s;
+}
+
+.nav-item:hover {
+    background-color: #101010;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.active {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+}
+
+.port-txt {
+    font-weight: bold !important;
+}
+
+.port-img {
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: all 1s;
+}
+
+.port-img:hover {
+    transform: scale(1.08);
+}
+
+footer,
+.footer-txt {
+    background-color: #101010 !important;
+    padding: 25px;
+    text-align: center !important;
+    color: white;
+    margin: 0 !important
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* END OF GLOBAL STYLES */
+
+/* HOME PAGE STYLES */
+
+.well {
+    border-radius: 40px;
+    background-color: #101010;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px lightblue;
+    animation: fadeIn 1s;
+}
+
+.mySlider {
+    height: 20% !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* END OF HAME PAGE STYLES */
+
+/* TASKS PAGE STYLES */
+
+.tsk-img {
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: all 1s;
+}
+
+.tsk-img:hover {
+    transform: scale(1.08);
+}
+
+.tsk-img {
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.jumbotron {
+    background-image: url("../images/home-banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-header,
+.jumbotron p {
+    color: white !important;
+}
+
+.jumbotron p {
+    background: black;
+    border-radius: 30px;
+    padding: 20px 0;
+}
+
+#cc-img {
+    width: 10%;
+}
+
+/* END OF TASKS PAGE STYLES */
+
+/* CONTACT PAGE STYLES */
+
+.row.content {
+    height: 450px
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+#contact-pic {
+    width: 90%;
+    border-radius: 30px
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+}
+
+/* END OF CONTACT PAGE STYLES */
